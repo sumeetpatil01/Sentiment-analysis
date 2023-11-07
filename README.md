@@ -1,6 +1,6 @@
 # Sentiment-analysis
 Sentiment analysis performed on restaurant data set using machine learning with python
-#Just copy the code and run it on google colab
+
 #Sentiment analysis:
 #Sentiment analysis is the process of classifying whether a block of text is positive,
 # negative, or, neutral. Sentiment analysis is contextual mining of words which indicates the
