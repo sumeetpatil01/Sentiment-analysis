@@ -17,7 +17,7 @@ import tables
 Reading the data and data preprocessing                                                                                                                               
 df = pd.read_table("https://raw.githubusercontent.com/jayantsinghjs7/Resturant-Reviews/master/Restaurant_Reviews.tsv")                                                                                                                                                                                            
 df
-df.info()   #checking for null values                                                                                                                                 
+df.info()  #checking for null values                                                                                                                                 
 #Initializing the columns present in the data to particular variables                                                                                                 
 x = df['Review'].values                                                                                                                                               
 y = df['Liked'].values                                                                                                                                             
