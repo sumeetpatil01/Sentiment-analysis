@@ -26,10 +26,9 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/sentiment-analysis-flask.git
+git clone https://github.com/sumeetpatil01/Sentiment-analysis-flask.git
 cd sentiment-analysis-flask
 Install dependencies:
-
 bash
 Copy code
 pip install -r requirements.txt
@@ -44,15 +43,15 @@ Project Structure
 php
 Copy code
 sentiment-analysis-flask/
-│
-├── app.py            # Main Flask application script
-├── model_training.py # Script for training machine learning models
-├── templates/        # HTML templates for web interface
-│   ├── index.html    # Main page template
-│   └── result.html   # Result page template
-├── static/           # Directory for static assets (CSS, JS)
-├── requirements.txt  # Python dependencies
-└── README.md         # This README file
+│                                                                                                                                                
+├── app.py            # Main Flask application script                                                                                                
+├── model_training.py # Script for training machine learning models                                                                                   
+├── templates/        # HTML templates for web interface                                                                                                
+│   ├── index.html    # Main page template                                                                                                            
+│   └── result.html   # Result page template                                                                                                           
+├── static/           # Directory for static assets (CSS, JS)                                                                                         
+├── requirements.txt  # Python dependencies                                                                                                            
+└── README.md         # This README file                                                                                                                
 Contributions
 Contributions are welcome! Here's how you can contribute to this project:
 
@@ -62,5 +61,5 @@ Make your changes.
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature/yourfeature).
 Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+
