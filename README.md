@@ -1,4 +1,4 @@
-sentiment Analysis Project with Flask
+# Sentiment Analysis Project with Flask
 Overview
 This project implements a sentiment analysis web application using Flask. The application analyzes restaurant reviews to classify them as positive or negative sentiments using machine learning models.
 
@@ -51,15 +51,11 @@ sentiment-analysis-flask/
 │   └── result.html   # Result page template                                                                                                           
 ├── static/           # Directory for static assets (CSS, JS)                                                                                         
 ├── requirements.txt  # Python dependencies                                                                                                            
-└── README.md         # This README file                                                                                                                
-Contributions
-Contributions are welcome! Here's how you can contribute to this project:
+└── README.md         # This README file         
+# Output Screenshots                                                                                                                                 
+![Screenshot (18)](https://github.com/sumeetpatil01/Sentiment-analysis/assets/136491586/ddb0d63c-a945-4120-9d85-c5eee19037c3)
+![Screenshot (19)](https://github.com/sumeetpatil01/Sentiment-analysis/assets/136491586/bb20fc01-2b2a-48cf-b882-4379ced5f16a)
 
-Fork the repository.
-Create a new branch (git checkout -b feature/yourfeature).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/yourfeature).
-Create a new Pull Request.
+
 
 
