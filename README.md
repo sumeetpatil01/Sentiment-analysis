@@ -12,7 +12,7 @@ Ensure you have Python 3.x installed on your system. Use pip to install the nece
 
 bash
 Copy code
-pip install -r requirements.txt
+pip install -r requirements.txt                                                                                                
 The requirements.txt file contains:
 
 Flask==2.0.2
@@ -26,12 +26,12 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/sumeetpatil01/Sentiment-analysis.git
-cd sentiment-analysis-flask
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
+git clone https://github.com/sumeetpatil01/Sentiment-analysis.git                                                                                                 
+cd sentiment-analysis                                                                                                                  
+Install dependencies                                                                                                                                                                            
+                                                                                                                                                     bash
+Copy code:                                                                                                                                     
+pip install -r requirements.txt                                                                                                                                  
 Run the application:
 
 bash
