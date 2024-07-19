@@ -53,6 +53,12 @@ sentiment-analysis-flask/
 ├── requirements.txt  # Python dependencies                                                                                                            
 └── README.md         # This README file         
 # Output Screenshots                                                                                                                                 
+Enter a review
+![Screenshot (47)](https://github.com/user-attachments/assets/3e02759e-4462-41fe-b8d1-3b88ce35c722)
+Sentiment prediction by two different models based on their accuracy
+![Screenshot (46)](https://github.com/user-attachments/assets/96600618-44cb-4275-ae60-67e08cab14dd)
+
+
 
 
 
