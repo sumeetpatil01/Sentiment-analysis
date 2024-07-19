@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Sentiment Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 50px; /* Adjust as needed */
+        }
+        .output-box {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .output-img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="output-box mt-4">
+            <h2 class="text-center mb-4">Review Sentiment Result</h2>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="mb-3">SVC Model Prediction</h3>
+                    <p><strong>Sentiment:</strong> {{ sentiment_svc }}</p>
+                    <img src="data:image/png;base64,{{ plot_url_svc }}" alt="SVC Model Prediction" class="output-img">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="mb-3">MultinomialNB Model Prediction</h3>
+                    <p><strong>Sentiment:</strong> {{ sentiment_nb }}</p>
+                    <img src="data:image/png;base64,{{ plot_url_nb }}" alt="MultinomialNB Model Prediction" class="output-img">
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <h3 class="mb-3">Model Accuracy Comparison</h3>
+            <p>SVC Model Accuracy: <strong>{{ accuracy_svc }}%</strong></p>
+            <p>MultinomialNB Model Accuracy: <strong>{{ accuracy_nb }}%</strong></p>
+            <img src="data:image/png;base64,{{ plot_url_accuracy }}" alt="Model Accuracy Comparison" class="output-img">
+        </div>
+    </div>
+</body>
+</html>
