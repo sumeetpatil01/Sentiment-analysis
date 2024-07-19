@@ -26,7 +26,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/sumeetpatil01/Sentiment-analysis-flask.git
+git clone https://github.com/sumeetpatil01/Sentiment-analysis.git
 cd sentiment-analysis-flask
 Install dependencies:
 bash
@@ -53,8 +53,6 @@ sentiment-analysis-flask/
 ├── requirements.txt  # Python dependencies                                                                                                            
 └── README.md         # This README file         
 # Output Screenshots                                                                                                                                 
-![Screenshot (18)](https://github.com/sumeetpatil01/Sentiment-analysis/assets/136491586/ddb0d63c-a945-4120-9d85-c5eee19037c3)
-![Screenshot (19)](https://github.com/sumeetpatil01/Sentiment-analysis/assets/136491586/bb20fc01-2b2a-48cf-b882-4379ced5f16a)
 
 
 
