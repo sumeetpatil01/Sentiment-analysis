@@ -35,9 +35,4 @@ sentiment-analysis-flask/
 ├── static/           # Directory for static assets (CSS, JS)
 ├── requirements.txt  # Python dependencies
 └── README.md         # This README file
-Output Screenshots
-Enter a review
-![Screenshot (72)](https://github.com/user-attachments/assets/a849a5a7-9d77-4301-91cf-d600a008130c)
-Sentiment prediction by two different models based on their accuracy
-![Screenshot (73)](https://github.com/user-attachments/assets/8bd7fb19-a495-40c5-9349-b3509d0b085f)
 
