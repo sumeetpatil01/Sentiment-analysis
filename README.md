@@ -1,20 +1,22 @@
-
 # Sentiment Analysis Project with Flask
+
 **🔗 To view the model, follow the Google Colab link in the description.**
-Overview
+
+## Overview
 This project implements a sentiment analysis web application using Flask. The application analyzes restaurant reviews to classify them as positive or negative sentiments using machine learning models.
 
-Features
-Web Application: Allows users to input restaurant reviews and get real-time sentiment analysis results.
-Machine Learning: Trained models (SVC, MultinomialNB) for sentiment classification.
-Visualization: Uses Matplotlib for visualizing data insights.
-Deployment: Easily deployable with Flask on local machines.
-Requirements
-Ensure you have Python 3. x installed on your system. Use pip to install the necessary Python libraries:
+## Features
+- **Web Application:** Allows users to input restaurant reviews and get real-time sentiment analysis results.
+- **Machine Learning:** Trained models (SVC, MultinomialNB) for sentiment classification.
+- **Visualization:** Uses Matplotlib for visualizing data insights.
+- **Deployment:** Easily deployable with Flask on local machines.
 
-bash
-Copy code
-pip install -r requirements.txt                                                                                                
+## Requirements
+Ensure you have Python 3.x installed on your system. Use pip to install the necessary Python libraries:
+
+```bash
+pip install -r requirements.txt
+                                                                                            
 The requirements.txt file contains:
 
 Flask==2.0.2
@@ -23,6 +25,7 @@ scikit-learn==0.24.2
 matplotlib==3.4.3
 numpy==1.21.2
 joblib==1.1.0
+
 Setup
 Clone the repository:
 
